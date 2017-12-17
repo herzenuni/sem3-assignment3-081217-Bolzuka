@@ -35,7 +35,7 @@ for index, i in enumerate(data):
 
     a = {}
     a.update(
-		{'address':i.get('address')})
+	{'address':i.get('address')})
     pprint.pprint(a)
 
     b = {}
